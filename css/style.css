@@ -1,0 +1,52 @@
+		.different-colors {
+            padding-top: 100px;
+            box-sizing: border-box;
+            position: absolute;
+            top: 0px;
+            z-index: 1;
+            right: 50px;
+            width: 400px;
+        }
+
+        .different-colors ul {
+            list-style-type: none;
+            margin: 0px 0px 50px;
+            overflow: hidden;
+        }
+
+        .different-colors ul li {
+            float: left;
+            text-align: center;
+        }
+
+        .different-colors ul li a {
+            width: 35px;
+            height: 35px;
+            display: block;
+            margin: 5px;
+        }
+
+        .different-colors ul li a+div {
+            padding: 5px 0px;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+
+		.different-colors ul.restrictedMaterials1 li:nth-child(1) a {
+            background: #191D35 url("../images/colorpicker_simple_inner_shadow.png") no-repeat;
+        }
+
+        .different-colors ul.restrictedMaterials1 li:nth-child(2) a {
+            background: #E2E2E2 url("../images/colorpicker_simple_inner_shadow.png") no-repeat;
+        }
+
+        .different-colors ul.restrictedMaterials1 li:nth-child(3) a {
+            background: transparent url("../images/bgb-swatch-kite-35x35.jpg") no-repeat;
+        }
+
+        .different-colors ul.restrictedMaterials1 li:nth-child(4) a {
+            background: transparent url("../images/fabric-swatches-2017-35x35-atelier.jpg") no-repeat;
+        }
+
+       
